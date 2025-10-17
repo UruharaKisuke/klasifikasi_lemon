@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 st.title(":lemon: Klasifikasi Lemon")
-st.markdown("Aplikasi machine learning untuk mengklasifikasikan lemon ke dalam kategori Grade A, Grade B, atau Reject berdasarkan fitur kualitas seperti warna, ukuran, dan tekstur permukaan")
+st.markdown("Aplikasi machine learning untuk mengklasifikasikan lemon ke dalam kategori Grade A, Grade B, atau Reject berdasarkan fitur kualitas seperti warna, ukuran, dan tekstur permukaan.")
 
 diameter = st.slider("Diameter", 45.5, 68.5, 56.6)
 berat = st.slider("Berat", 70.0, 145.0, 105.0)
